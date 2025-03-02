@@ -18,7 +18,8 @@ The repository is organized into two main directories:
 - `tests/`: Contains unit tests
 
 A `run.bash` script is provided in the root directory to reproduce all results.
-A `Report1.pdf` file that summaries the replication results.
+
+A `Report1.pdf` file summaries the replication results.
 
 ## Core Implementation (`codes/`)
 
