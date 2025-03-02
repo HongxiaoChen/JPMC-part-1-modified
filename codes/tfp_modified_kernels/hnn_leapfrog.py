@@ -126,11 +126,11 @@ class HNNLeapfrogIntegrator(leapfrog_impl.LeapfrogIntegrator):
                 target_grad_parts   # Hamiltonian gradients w.r.t. states
             )
             
-            # 确保所有变量都是有效的张量，防止None值
+            
             if H is None:
                 H = self.target_fn(state_parts[0])
             
-            # 确保H_grad_parts不为None
+            
             if H_grad_parts is None or any(g is None for g in H_grad_parts):
                 z = tf.concat([state_parts[0], momentum_parts[0]], axis=-1)
                 with tf.GradientTape(persistent=True) as tape:
@@ -141,7 +141,7 @@ class HNNLeapfrogIntegrator(leapfrog_impl.LeapfrogIntegrator):
                 H_grad_parts = [grads[..., :dim]]
                 del tape
             
-            # 使用tf.constant确保num_steps是标量张量
+            
             num_steps = tf.constant(self.num_steps, dtype=tf.int32)
             
             # Multiple steps of leapfrog integration
@@ -156,7 +156,7 @@ class HNNLeapfrogIntegrator(leapfrog_impl.LeapfrogIntegrator):
                 body=lambda i, *args: [i + 1] + list(_one_step(
                     self.hnn_model, self.target_fn, self.step_sizes, *args)),
                 loop_vars=[
-                    tf.zeros([], dtype=tf.int32, name='iter'),  # 明确指定为标量
+                    tf.zeros([], dtype=tf.int32, name='iter'), 
                     momentum_parts,
                     state_parts,
                     H,
