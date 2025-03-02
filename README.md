@@ -32,6 +32,7 @@ Located in `codes/tfp_modified_kernels/`:
 - `tfp_hnn_hmc.py`: Inherits from `kernel_base.TransitionKernel`, implements LHNN HMC sampling using `hnn_leapfrog.py`
 - `tfp_hnn_nuts.py`: Inherits from `kernel_base.TransitionKernel`, implements LHNN NUTS sampling using `hnn_leapfrog.py`
 - `tfp_hnn_nuts_online.py`: Inherits from `kernel_base.TransitionKernel`, implements LHNN NUTS with online monitoring using `hnn_leapfrog.py`
+- All samplings are run via `tfp.mcmc.sample_chain` that lies in `run_sampling` function in `utils.py`, which is decorated with `@tf.function`
 
 ### Core Files
 - `hnn.py` & `nn_models.py`: Build Hamiltonian Neural Networks
@@ -39,7 +40,7 @@ Located in `codes/tfp_modified_kernels/`:
 - `train_hnn.py`: Training script using `data.py` to train HNN weights
 - `get_args.py`: Parameter configurations
 - `utils.py`: Utility functions
-- `utils.py`: Contains all Hamiltonian functions
+- `functions.py`: Contains all Hamiltonian functions
 
 ### Result Reproduction Scripts
 - `_Table1_reproduction.py`
