@@ -39,6 +39,7 @@ Located in `codes/tfp_modified_kernels/`:
 - `train_hnn.py`: Training script using `data.py` to train HNN weights
 - `get_args.py`: Parameter configurations
 - `utils.py`: Utility functions
+- `utils.py`: Contains all Hamiltonian functions
 
 ### Result Reproduction Scripts
 - `_Table1_reproduction.py`
