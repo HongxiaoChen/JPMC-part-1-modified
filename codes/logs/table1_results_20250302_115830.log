@@ -1,0 +1,13 @@
+===== Sampling methods performance comparison results =====
+distribution: 1D_Gauss_mix
+sampling count: 5000
+burn-in count: 0
+
+method              ESS      total leapfrog count    ESS/leapfrog      running time(seconds)    acceptance rate
+--------------------------------------------------------------------------------
+Traditional HMC    84.74       100000   0.000847      62.29   0.9992
+L-HNN HMC          47.65         8000   0.005957      59.49   0.9992
+Traditional NUTS    40.31        67918   0.000593     201.13   1.0000
+L-HNN NUTS         53.43         8000   0.006678     321.92   0.9998
+
+Experiment completed!

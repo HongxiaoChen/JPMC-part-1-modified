@@ -1,0 +1,6 @@
+=== LHNN Performance Metrics ===
+ESS: (673.54, 658.89, 629.39, 621.01, 614.29, 606.09, 602.88, 599.42, 592.47, 584.71, 577.54, 589.46, 587.44, 598.38, 599.93, 611.28, 616.09, 624.88, 626.83, 637.43, 664.09, 684.30, 698.18, 714.99, 731.99)
+Total gradient computations: 1371200
+Total gradient computations (traditional): 103679
+Average ESS: 629.82
+ESS per gradient: 0.000459
