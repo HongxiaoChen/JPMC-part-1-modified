@@ -1,0 +1,116 @@
+2025-03-02 13:39:46,311 - Starting dataset generation
+2025-03-02 13:39:46,312 - Generating new dataset with 5 samples
+2025-03-02 13:39:46,312 - Configuration: input_dim=6, len_sample=2
+2025-03-02 13:39:46,357 - Generating sample 1/5
+2025-03-02 13:39:46,358 - Time parameters - dt: 0.025, n_steps: 80, t_span: [0, 2]
+2025-03-02 13:39:48,569 - Sample 1 completed in 2.21 seconds
+2025-03-02 13:39:48,569 - Progress: 20.0% - Elapsed: 2.3s - Remaining: 9.0s
+2025-03-02 13:39:48,570 - Generating sample 2/5
+2025-03-02 13:39:48,570 - Time parameters - dt: 0.025, n_steps: 80, t_span: [0, 2]
+2025-03-02 13:39:50,523 - Sample 2 completed in 1.95 seconds
+2025-03-02 13:39:50,524 - Progress: 40.0% - Elapsed: 4.2s - Remaining: 6.3s
+2025-03-02 13:39:50,526 - Generating sample 3/5
+2025-03-02 13:39:50,527 - Time parameters - dt: 0.025, n_steps: 80, t_span: [0, 2]
+2025-03-02 13:39:52,467 - Sample 3 completed in 1.94 seconds
+2025-03-02 13:39:52,467 - Progress: 60.0% - Elapsed: 6.2s - Remaining: 4.1s
+2025-03-02 13:39:52,467 - Generating sample 4/5
+2025-03-02 13:39:52,468 - Time parameters - dt: 0.025, n_steps: 80, t_span: [0, 2]
+2025-03-02 13:39:54,467 - Sample 4 completed in 2.00 seconds
+2025-03-02 13:39:54,467 - Progress: 80.0% - Elapsed: 8.2s - Remaining: 2.0s
+2025-03-02 13:39:54,467 - Generating sample 5/5
+2025-03-02 13:39:54,468 - Time parameters - dt: 0.025, n_steps: 80, t_span: [0, 2]
+2025-03-02 13:39:56,407 - Sample 5 completed in 1.94 seconds
+2025-03-02 13:39:56,408 - Progress: 100.0% - Elapsed: 10.1s - Remaining: 0.0s
+2025-03-02 13:39:56,408 - Combining and processing dataset
+2025-03-02 13:39:56,414 - Saving dataset to D:\GitHub\JPMC-part-1-modified\temp_test_data/nD_Rosenbrock2.pkl
+2025-03-02 13:39:56,415 - Dataset generation completed in 10.10 seconds
+2025-03-02 13:39:56,415 - Final dataset shapes - coords: (324, 6), dcoords: (324, 6)
+2025-03-02 13:39:56,422 - Starting dataset generation
+2025-03-02 13:39:56,425 - Generating new dataset with 5 samples
+2025-03-02 13:39:56,425 - Configuration: input_dim=4, len_sample=2
+2025-03-02 13:39:56,431 - Generating sample 1/5
+2025-03-02 13:39:56,431 - Time parameters - dt: 0.025, n_steps: 80, t_span: [0, 2]
+2025-03-02 13:39:58,371 - Sample 1 completed in 1.94 seconds
+2025-03-02 13:39:58,371 - Progress: 20.0% - Elapsed: 1.9s - Remaining: 7.8s
+2025-03-02 13:39:58,372 - Generating sample 2/5
+2025-03-02 13:39:58,372 - Time parameters - dt: 0.025, n_steps: 80, t_span: [0, 2]
+2025-03-02 13:40:00,303 - Sample 2 completed in 1.93 seconds
+2025-03-02 13:40:00,303 - Progress: 40.0% - Elapsed: 3.9s - Remaining: 5.8s
+2025-03-02 13:40:00,303 - Generating sample 3/5
+2025-03-02 13:40:00,304 - Time parameters - dt: 0.025, n_steps: 80, t_span: [0, 2]
+2025-03-02 13:40:02,164 - Sample 3 completed in 1.86 seconds
+2025-03-02 13:40:02,164 - Progress: 60.0% - Elapsed: 5.7s - Remaining: 3.8s
+2025-03-02 13:40:02,165 - Generating sample 4/5
+2025-03-02 13:40:02,165 - Time parameters - dt: 0.025, n_steps: 80, t_span: [0, 2]
+2025-03-02 13:40:04,038 - Sample 4 completed in 1.87 seconds
+2025-03-02 13:40:04,038 - Progress: 80.0% - Elapsed: 7.6s - Remaining: 1.9s
+2025-03-02 13:40:04,038 - Generating sample 5/5
+2025-03-02 13:40:04,039 - Time parameters - dt: 0.025, n_steps: 80, t_span: [0, 2]
+2025-03-02 13:40:05,883 - Sample 5 completed in 1.84 seconds
+2025-03-02 13:40:05,884 - Progress: 100.0% - Elapsed: 9.5s - Remaining: 0.0s
+2025-03-02 13:40:05,884 - Combining and processing dataset
+2025-03-02 13:40:05,889 - Saving dataset to D:\GitHub\JPMC-part-1-modified\temp_test_data/2D_Neal_funnel2.pkl
+2025-03-02 13:40:05,891 - Dataset generation completed in 9.47 seconds
+2025-03-02 13:40:05,891 - Final dataset shapes - coords: (324, 4), dcoords: (324, 4)
+2025-03-02 13:40:05,898 - Starting dataset generation
+2025-03-02 13:40:05,900 - Generating new dataset with 5 samples
+2025-03-02 13:40:05,900 - Configuration: input_dim=10, len_sample=2
+2025-03-02 13:40:05,906 - Generating sample 1/5
+2025-03-02 13:40:05,907 - Time parameters - dt: 0.025, n_steps: 80, t_span: [0, 2]
+2025-03-02 13:40:07,414 - Sample 1 completed in 1.51 seconds
+2025-03-02 13:40:07,415 - Progress: 20.0% - Elapsed: 1.5s - Remaining: 6.1s
+2025-03-02 13:40:07,415 - Generating sample 2/5
+2025-03-02 13:40:07,415 - Time parameters - dt: 0.025, n_steps: 80, t_span: [0, 2]
+2025-03-02 13:40:08,843 - Sample 2 completed in 1.43 seconds
+2025-03-02 13:40:08,844 - Progress: 40.0% - Elapsed: 2.9s - Remaining: 4.4s
+2025-03-02 13:40:08,844 - Generating sample 3/5
+2025-03-02 13:40:08,844 - Time parameters - dt: 0.025, n_steps: 80, t_span: [0, 2]
+2025-03-02 13:40:10,316 - Sample 3 completed in 1.47 seconds
+2025-03-02 13:40:10,316 - Progress: 60.0% - Elapsed: 4.4s - Remaining: 2.9s
+2025-03-02 13:40:10,317 - Generating sample 4/5
+2025-03-02 13:40:10,317 - Time parameters - dt: 0.025, n_steps: 80, t_span: [0, 2]
+2025-03-02 13:40:11,925 - Sample 4 completed in 1.61 seconds
+2025-03-02 13:40:11,925 - Progress: 80.0% - Elapsed: 6.0s - Remaining: 1.5s
+2025-03-02 13:40:11,926 - Generating sample 5/5
+2025-03-02 13:40:11,926 - Time parameters - dt: 0.025, n_steps: 80, t_span: [0, 2]
+2025-03-02 13:40:13,472 - Sample 5 completed in 1.55 seconds
+2025-03-02 13:40:13,472 - Progress: 100.0% - Elapsed: 7.6s - Remaining: 0.0s
+2025-03-02 13:40:13,472 - Combining and processing dataset
+2025-03-02 13:40:13,480 - Saving dataset to D:\GitHub\JPMC-part-1-modified\temp_test_data/5D_illconditioned_Gaussian2.pkl
+2025-03-02 13:40:13,482 - Dataset generation completed in 7.58 seconds
+2025-03-02 13:40:13,482 - Final dataset shapes - coords: (324, 10), dcoords: (324, 10)
+2025-03-02 13:40:13,490 - Starting dataset generation
+2025-03-02 13:40:13,493 - Generating new dataset with 5 samples
+2025-03-02 13:40:13,493 - Configuration: input_dim=50, len_sample=2
+2025-03-02 13:40:13,500 - Generating sample 1/5
+2025-03-02 13:40:13,500 - Time parameters - dt: 0.025, n_steps: 80, t_span: [0, 2]
+2025-03-02 13:40:15,828 - Sample 1 completed in 2.33 seconds
+2025-03-02 13:40:15,828 - Progress: 20.0% - Elapsed: 2.3s - Remaining: 9.3s
+2025-03-02 13:40:15,829 - Generating sample 2/5
+2025-03-02 13:40:15,829 - Time parameters - dt: 0.025, n_steps: 80, t_span: [0, 2]
+2025-03-02 13:40:17,956 - Sample 2 completed in 2.13 seconds
+2025-03-02 13:40:17,956 - Progress: 40.0% - Elapsed: 4.5s - Remaining: 6.7s
+2025-03-02 13:40:17,957 - Generating sample 3/5
+2025-03-02 13:40:17,957 - Time parameters - dt: 0.025, n_steps: 80, t_span: [0, 2]
+2025-03-02 13:40:20,133 - Sample 3 completed in 2.18 seconds
+2025-03-02 13:40:20,133 - Progress: 60.0% - Elapsed: 6.6s - Remaining: 4.4s
+2025-03-02 13:40:20,133 - Generating sample 4/5
+2025-03-02 13:40:20,134 - Time parameters - dt: 0.025, n_steps: 80, t_span: [0, 2]
+2025-03-02 13:40:22,387 - Sample 4 completed in 2.25 seconds
+2025-03-02 13:40:22,387 - Progress: 80.0% - Elapsed: 8.9s - Remaining: 2.2s
+2025-03-02 13:40:22,388 - Generating sample 5/5
+2025-03-02 13:40:22,388 - Time parameters - dt: 0.025, n_steps: 80, t_span: [0, 2]
+2025-03-02 13:40:24,599 - Sample 5 completed in 2.21 seconds
+2025-03-02 13:40:24,599 - Progress: 100.0% - Elapsed: 11.1s - Remaining: 0.0s
+2025-03-02 13:40:24,599 - Combining and processing dataset
+2025-03-02 13:40:24,605 - Saving dataset to D:\GitHub\JPMC-part-1-modified\temp_test_data/Allen_Cahn2.pkl
+2025-03-02 13:40:24,606 - Dataset generation completed in 11.12 seconds
+2025-03-02 13:40:24,606 - Final dataset shapes - coords: (324, 50), dcoords: (324, 50)
+2025-03-02 13:40:24,626 - Time parameters - dt: 0.025, n_steps: 80, t_span: [0, 2]
+2025-03-02 13:40:27,175 - Time parameters - dt: 0.1, n_steps: 20, t_span: [0, 2]
+2025-03-02 13:40:28,105 - Time parameters - dt: 0.025, n_steps: 80, t_span: [0, 2]
+2025-03-02 13:40:30,171 - Time parameters - dt: 0.1, n_steps: 20, t_span: [0, 2]
+2025-03-02 13:40:30,683 - Time parameters - dt: 0.025, n_steps: 80, t_span: [0, 2]
+2025-03-02 13:40:32,231 - Time parameters - dt: 0.1, n_steps: 20, t_span: [0, 2]
+2025-03-02 13:40:32,639 - Time parameters - dt: 0.025, n_steps: 80, t_span: [0, 2]
+2025-03-02 13:40:34,819 - Time parameters - dt: 0.1, n_steps: 20, t_span: [0, 2]
