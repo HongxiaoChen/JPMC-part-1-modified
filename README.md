@@ -51,3 +51,5 @@ The `tests/` directory contains comprehensive unit tests for all components. Run
 
 ```bash
 python -m unittest discover -v
+```
+
