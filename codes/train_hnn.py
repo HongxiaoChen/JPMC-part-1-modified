@@ -1,11 +1,11 @@
 import tensorflow as tf
 import numpy as np
 import os
-from .nn_models import MLP
-from .hnn import HNN
-from .data import get_dataset
-from .utils import L2_loss, to_pickle
-from .get_args import get_args
+from nn_models import MLP
+from hnn import HNN
+from data import get_dataset
+from utils import L2_loss, to_pickle
+from get_args import get_args
 from pathlib import Path
 import logging
 from datetime import datetime

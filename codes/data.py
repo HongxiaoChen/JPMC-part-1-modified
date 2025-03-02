@@ -1,7 +1,7 @@
 import tensorflow as tf
 from functions import functions
-from .utils import traditional_leapfrog, to_pickle, from_pickle, dynamics_fn
-from .get_args import get_args
+from utils import traditional_leapfrog, to_pickle, from_pickle, dynamics_fn
+from get_args import get_args
 from pathlib import Path
 import logging
 from datetime import datetime
