@@ -7,7 +7,7 @@ import sys
 
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(project_root)
-sys.path.append(os.path.join(project_root, 'codes'))  # 添加 codes 目录到系统路径
+sys.path.append(os.path.join(project_root, 'codes'))
 
 
 from codes.utils import (dynamics_fn, traditional_leapfrog, L2_loss,
