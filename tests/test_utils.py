@@ -26,7 +26,7 @@ class TestUtils(unittest.TestCase):
         self.args.dist_name = '1D_Gauss_mix'
         self.args.input_dim = 2
 
-        # 创建不同维度的模型字典
+        
         self.model_configs = {
             'nD_Rosenbrock100': {'input_dim': 200},
             '2D_Neal_funnel250': {'input_dim': 4},
