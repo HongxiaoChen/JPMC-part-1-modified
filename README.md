@@ -23,10 +23,6 @@ A `Report1.pdf` file summaries the replication results.
 
 ## Core Implementation (`codes/`)
 
-### Output Directories
-- `codes/logs/`: Contains all execution logs
-- `codes/figures/`: Stores generated figures
-- `codes/files/`: Contains model weights
 
 ### TFP Modified Kernels
 Located in `codes/tfp_modified_kernels/`:
@@ -47,6 +43,11 @@ Located in `codes/tfp_modified_kernels/`:
 ### Result Reproduction Scripts
 - `_Table1_reproduction.py`
 - `_figure2_reproduction.py` through `_figure11_reproduction.py`
+
+### Output Directories
+- `codes/logs/`: Contains all execution logs
+- `codes/figures/`: Stores generated figures
+- `codes/files/`: Contains model weights
 
 ## Testing
 
