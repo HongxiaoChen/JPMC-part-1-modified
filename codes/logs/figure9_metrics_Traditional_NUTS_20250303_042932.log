@@ -1,0 +1,6 @@
+=== Traditional_NUTS Performance Metrics ===
+ESS: (25000.00, 23420.64, 18372.96, 10660.95, 3187.23)
+Total gradient computations: 9159872
+Total gradient computations (traditional): 0
+Average ESS: 16128.36
+ESS per gradient: 0.001761
