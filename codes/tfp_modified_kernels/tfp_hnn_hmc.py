@@ -19,7 +19,7 @@ class UncalibratedHNNHMCKernelResults(
     collections.namedtuple(
         'UncalibratedHNNHMCKernelResults',
         [
-            'log_acceptance_correction',  # always 0
+            'log_acceptance_correction',  
             'target_log_prob',           # target log probability
             'initial_momentum',          # initial momentum
             'final_momentum',            # final momentum
