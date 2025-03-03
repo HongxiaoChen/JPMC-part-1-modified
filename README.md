@@ -30,10 +30,10 @@ A `Report1.pdf` file summaries the replication results.
 
 ### TFP Modified Kernels
 Located in `codes/tfp_modified_kernels/`:
-- `hnn_leapfrog.py`: Inherits from `tensorflow_probability.python.mcmc.internal.leapfrog_integrator.LeapfrogIntegrator`
-- `tfp_hnn_hmc.py`: Includes a new transition kernel that inherits from `kernel.TransitionKernel`, implements LHNN HMC sampling, and uses `hnn_leapfrog.py` to produce integrator.
-- `tfp_hnn_nuts.py`: Includes a new transition kernel that inherits from `kernel.TransitionKernel`, implements LHNN NUTS sampling, and uses `hnn_leapfrog.py` to produce integrator.
-- `tfp_hnn_nuts_online.py`: Includes a new transition kernel that inherits from `kernel.TransitionKernel`, implements LHNN NUTS with online monitoring, and uses `hnn_leapfrog.py` to produce integrator.
+- `hnn_leapfrog.py`: Inherits from `tensorflow_probability.python.mcmc.internal.leapfrog_integrator.LeapfrogIntegrator`. It uses the one-step leapfrog as in the paper of Dhulipala (2023), and takes HNN as an extra input.
+- `tfp_hnn_hmc.py`: Includes a new transition kernel that inherits from `kernel.TransitionKernel`, implements LHNN HMC sampling, takes HNN as an extra input, and uses `hnn_leapfrog.py` to produce integrator.
+- `tfp_hnn_nuts.py`: Includes a new transition kernel that inherits from `kernel.TransitionKernel`, implements LHNN NUTS sampling, takes HNN as an extra input, and uses `hnn_leapfrog.py` to produce integrator.
+- `tfp_hnn_nuts_online.py`: Includes a new transition kernel that inherits from `kernel.TransitionKernel`, implements LHNN NUTS with online monitoring, takes both HNN and Hamiltonian function as extra inputs, and uses `hnn_leapfrog.py` to produce integrator.
 - All samplings are run via `tfp.mcmc.sample_chain` that lies in `run_sampling` function in `utils.py`, which is decorated with `@tf.function`
 
 ### Core Files
