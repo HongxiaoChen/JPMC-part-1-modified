@@ -37,12 +37,12 @@ Located in `codes/tfp_modified_kernels/`:
 - All samplings are run via `tfp.mcmc.sample_chain` that lies in `run_sampling` function in `utils.py`, which is decorated with `@tf.function`
 
 ### Core Files
-- `hnn.py` & `nn_models.py`: Build Hamiltonian Neural Networks
-- `data.py`: Data generation for training
-- `train_hnn.py`: Training script using `data.py` to train HNN weights
+- `hnn.py` & `nn_models.py`: Structures for Hamiltonian Neural Networks
+- `data.py`: Data generation for training, which is used in `train_hnn.py`
+- `train_hnn.py`: Training script that trains HNN weights
 - `get_args.py`: Parameter configurations
 - `utils.py`: Utility functions
-- `functions.py`: Contains all Hamiltonian functions
+- `functions.py`: Contains all Hamiltonian functions and target log probabilities
 
 ### Result Reproduction Scripts
 - `_Table1_reproduction.py`
@@ -55,4 +55,4 @@ The `tests/` directory contains comprehensive unit tests for all components. Run
 ```bash
 python -m unittest discover -v
 ```
-at the root directory.
+from the root directory.
