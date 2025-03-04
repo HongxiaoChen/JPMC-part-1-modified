@@ -23,6 +23,10 @@ A `Report1.pdf` file summaries the replication results.
 
 ## Core Implementation (`codes/`)
 
+### Result Reproduction Scripts
+Run the following to reproduce all replication results:
+- `_Table1_reproduction.py`
+- `_figure2_reproduction.py` through `_figure11_reproduction.py`
 
 ### TFP Modified Kernels
 Located in `codes/tfp_modified_kernels/`:
@@ -39,10 +43,6 @@ Located in `codes/tfp_modified_kernels/`:
 - `get_args.py`: Parameter configurations
 - `utils.py`: Utility functions
 - `functions.py`: Contains all Hamiltonian functions and target log probabilities
-
-### Result Reproduction Scripts
-- `_Table1_reproduction.py`
-- `_figure2_reproduction.py` through `_figure11_reproduction.py`
 
 ### Output Directories
 - `codes/logs/`: Contains all execution logs
