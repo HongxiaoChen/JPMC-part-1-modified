@@ -17,6 +17,3 @@ python _figure8_reproduction.py
 python _figure9_reproduction.py
 python _figure10_reproduction.py
 python _figure11_reproduction.py
-
-
-
